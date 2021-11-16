@@ -21,7 +21,7 @@ export default function Footer() {
 					<Typography variant='body1' color='inherit'>
 						© {text.title}
 					</Typography>
-					<div
+					{/* <div
 						style={{
 							display: "flex",
 							flexDirection: "row",
@@ -36,11 +36,10 @@ export default function Footer() {
 								rel='noreferrer'
 								color='#fff'
 							>
-								{/* <FaInstagramSquare size={50} color='#fff' /> */}
 								Instagram
 							</a>
 						</p>
-					</div>
+					</div> */}
 				</Toolbar>
 			</Container>
 		</AppBar>
