@@ -3,7 +3,8 @@ import theme from "../styles/theme";
 
 export const useStyles = makeStyles(() => ({
 	app: {
-		backgroundColor: theme.primary,
-		color: theme.primaryText,
+		backgroundColor: theme.background,
+		color: theme.text,
+		alignItems: "center",
 	},
 }));

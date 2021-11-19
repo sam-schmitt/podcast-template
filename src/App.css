@@ -8,8 +8,10 @@
 }
 
 .screen {
-	padding-top: 5rem;
 	align-items: center;
+	max-width: 40rem;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {

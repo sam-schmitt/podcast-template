@@ -9,7 +9,7 @@ export default function Footer() {
 		<AppBar
 			position='static'
 			style={{
-				backgroundColor: theme.primary,
+				backgroundColor: theme.background,
 			}}
 		>
 			<Container maxWidth='md'>
@@ -18,7 +18,7 @@ export default function Footer() {
 						justifyContent: "space-between",
 					}}
 				>
-					<Typography variant='body1' color='inherit'>
+					<Typography variant='body1' style={{ color: theme.text }}>
 						© {text.title}
 					</Typography>
 					{/* <div

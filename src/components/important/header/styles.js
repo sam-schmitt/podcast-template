@@ -31,8 +31,8 @@ export const useStyles = makeStyles(() => ({
 		padding: "20px 30px",
 	},
 	betterHeaderText: {
-		fontFamily: "Praise",
-		fontWeight: "bold",
+		// fontFamily: "Praise",
+		fontWeight: "semi-bold",
 		fontSize: 64,
 		textAlign: "center",
 		color: theme.primaryText,

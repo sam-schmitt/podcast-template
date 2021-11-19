@@ -5,6 +5,7 @@ import Home from "./screens/home/home";
 import About from "./screens/about/about";
 import { useStyles } from "./styles/appStyles";
 import BetterHeader from "./components/important/header/betterHeader";
+import Footer from "./components/important/footer/footer";
 
 function App() {
 	const { app } = useStyles();
@@ -13,10 +14,11 @@ function App() {
 			<Router>
 				<BetterHeader />
 				<Routes>
-					<Route path='/about' element={<About />} />
+					{/* <Route path='/about' element={<About />} /> */}
 
 					<Route path='/' element={<Home />} />
 				</Routes>
+				<Footer />
 			</Router>
 		</div>
 	);
